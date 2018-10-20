@@ -10,7 +10,6 @@ if (!fs.existsSync(gitDir) || !gitDir.endsWith('.git')) {
   return;
 }
 
-const defaultPath = { path: 'commitStatistics.json' };
 const defaultEnableStatistics = {
   byPerDayOfMonth: true,
   byPerMonth: true,
@@ -20,7 +19,7 @@ const defaultEnableStatistics = {
 };
 
 if (config.gitCommitStatistics.path === '' || config.gitCommitStatistics.path === undefined) {
-  config.gitCommitStatistics.path = defaultPath;
+  config.gitCommitStatistics.path = 'commitStatistics.json';
 }
 config.gitCommitStatistics.enableStatistics = Object.assign(defaultEnableStatistics, config.gitCommitStatistics.enableStatistics);
 
