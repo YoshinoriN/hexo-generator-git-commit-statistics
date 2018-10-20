@@ -1,0 +1,10 @@
+.idea/
+.github/
+.vscode/
+coverage/
+tests/
+.editorconfig
+.eslintrc.yml
+.eslintignore
+*.log
+.DS_Store
