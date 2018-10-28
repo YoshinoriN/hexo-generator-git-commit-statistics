@@ -25,7 +25,7 @@
     "eslint": "eslint ."
   },
   "dependencies": {
-    "git-commit-statistics": "0.3.0"
+    "git-commit-statistics": "1.0.0"
   },
   "devDependencies": {
     "coveralls": "3.0.2",
