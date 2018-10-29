@@ -27,6 +27,10 @@ module.exports = function() {
     result.push({byPerDayHour: cs.getByDayHour()});
   }
 
+  if (config.enableStatistics.byPerDayHourOfWeekDay) {
+    result.push({byPerDayHourOfWeekDay: cs.getByDayHourOfWeekDay()})
+  }
+
   return {
     path: config.path,
     data: JSON.stringify(result)

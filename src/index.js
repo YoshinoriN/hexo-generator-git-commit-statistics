@@ -15,7 +15,8 @@ const defaultEnableStatistics = {
   byPerMonth: true,
   byPerWeekDays: true,
   byPerYear: true,
-  byPerDayHour: true
+  byPerDayHour: true,
+  byPerDayHourOfWeekDay: true
 };
 
 if (config.gitCommitStatistics.path === '' || config.gitCommitStatistics.path === undefined) {
