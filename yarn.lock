@@ -1378,10 +1378,10 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-git-commit-statistics@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/git-commit-statistics/-/git-commit-statistics-1.0.0.tgz#011d4fe07c672d793005e68059609e991b55081a"
-  integrity sha512-J8GXfDcxVeJX5FQqmf/X6BAHCxdsTI3ox/9qP0kUk0yHNiQWB70P/IK4Ud+fEn+6eRy9YSXSuf/NLyeRygfh2Q==
+git-commit-statistics@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/git-commit-statistics/-/git-commit-statistics-1.0.1.tgz#f16e989b8bf2f54c7ff0801c405559b91b3bccfe"
+  integrity sha512-CS9ifEdvNFl3WRrB1wuOedUgvzchJgMIwfxrrLAqG+5oAvGKo4Dy0McxsGIv7oI8Uw+hEsDpcfq7P4Pq4mvuhQ==
   dependencies:
     lodash.groupby "4.6.0"
     lodash.sortby "4.7.0"
