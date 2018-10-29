@@ -22,6 +22,7 @@ gitCommitStatistics:
     byPerWeekDays: true
     byPerYear: true
     byPerDayHour: true
+    byPerDayHourOfWeekDay: true
 ```
 
 * gitDir: Set your git repository path.
@@ -142,6 +143,53 @@ Other options please see [git-commit-statistics](https://www.npmjs.com/package/g
       {
         "hour": 23,
         "count": 138
+      }
+    ]
+  },
+  {
+    "byPerDayHourOfWeekDay": [
+      {
+        "id": 0,
+        "Sun": [
+          {
+            "hour": 0,
+            "count": 9
+          },
+...
+          {
+              "hour": 23,
+              "count": 23
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "Mon": [
+          {
+            "hour": 0,
+            "count": 21
+          },
+...
+          {
+            "hour": 23,
+            "count": 25
+          }
+        ]
+      },
+...
+      {
+        "id": 6,
+        "Sat": [
+          {
+            "hour": 0,
+            "count": 15
+          },
+...
+          {
+            "hour": 23,
+            "count": 16
+          }
+        ]
       }
     ]
   }
