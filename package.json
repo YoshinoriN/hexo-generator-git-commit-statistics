@@ -28,7 +28,7 @@
     "git-commit-statistics": "2.0.0"
   },
   "devDependencies": {
-    "coveralls": "3.0.9",
+    "coveralls": "3.0.11",
     "eslint": "6.8.0",
     "jest": "24.9.0"
   },
